@@ -1,0 +1,333 @@
+/* Setting the background color and text color for the entire page */
+body{
+    background-color: rgb(0, 0, 0);
+    color: rgb(220, 212, 212);
+}
+/* Styling for the navigation menu */
+nav ul{
+    list-style: none;
+    border: 2px solid rgb(98, 94, 87);
+    border-radius: 23px;
+    display: block;
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+    justify-content: center;
+    padding: 23px;
+    font-size: 20px;
+    box-shadow: 0px 4px 8px rgb(122, 116, 116);
+    background-image: url('img/red.jpg'); 
+    background-size: cover; 
+    
+    
+    
+}
+/* Styles for individual list items in the navigation */
+nav li{
+    display: inline;
+    padding: 23px;
+}
+/* Styles for anchor tags within list items */
+li a{
+    text-decoration: none;
+    padding-left: 18px;
+    padding-right: 18px;
+    color:   rgb(215, 198, 198);
+}
+/* Hover effect for anchor tags */
+ul li a:hover{
+    
+   color: rgb(218, 113, 32);
+    border-radius: 10px;
+     
+}
+
+/* Styles for the header section */
+header{
+    display: block;
+    color: #111010;
+    -webkit-text-stroke: 1px rgb(255, 255, 255); 
+    text-shadow: 3px 3px 5px rgba(118, 3, 3, 0.5);
+    font-family: 'Sacramento', cursive;
+    font-size: 20px;
+    background-image: url('img/R.png'); 
+    background-size: cover; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-right: 2px solid rgb(245, 164, 164);
+    border-left: 2px solid rgb(197, 142, 142);
+    border-bottom: 2px solid rgb(240, 182, 182);
+    
+}
+header h1{
+    text-align: center;
+}
+/* Styles for the main image of the tractor */
+.image{
+    border-radius: 70%;
+    display: block;
+    margin: auto;
+    width: 35%;
+    height: 35%;
+    margin-top: 170px;
+}
+/* Hover effect for the main image */
+.image:hover{
+    transform: scale(1.1);
+}
+/* Styling for the company logo in the header */
+.logo1{
+    position: absolute;
+    top: 10px ;
+    
+}
+/* Styles for tractor images within a specific section */
+.tactor img{
+    display: block;
+    width: 32%;
+    margin: auto;
+    
+}
+/* Heading style within a specific section */
+.tactor h1{
+    text-align: center;
+}
+/* Styles for headings within the 'section' element */
+section h2{
+    text-align: center;
+}
+/* Styles for paragraphs within the 'section' element */
+section p{
+    text-align: center;
+    
+}
+/* Styles for links within the 'section' element */
+section a.explore {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    border: 2px solid rgb(27, 25, 25);
+    text-decoration: none;
+    background-color: rgb(218, 113, 32);
+    color: rgb(31, 29, 29);
+    font-size: 20px;
+    border-radius: 11px;
+    width: fit-content;
+    padding: 8px 16px;
+}
+/* Styles for the 'Customer Feedback' section heading */
+.para h2{
+    text-align: center;
+    color: rgb(207, 199, 199);
+}
+/* Styles for paragraphs within the 'Customer Feedback' section */
+
+.para p{
+    text-align: center;
+}
+/* Styles for links within the 'Customer Feedback' section */
+.para a {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(31, 28, 28);
+    background-color: rgb(218, 131, 32);
+    font-size: 20px;
+    border: 2px solid rgb(15, 15, 15);
+    border-radius: 11px;
+    width: fit-content;
+    padding: 8px 16px;
+}
+/* Styles for headings within the '#imgs' section */
+#imgs h1{
+    text-align: center;
+    color: rgb(218, 116, 32);
+}
+/* Styles for images within the '#imgs' section */
+#imgs img{
+    display: block;
+    margin: auto;
+    width: 40%;
+    height: 40%;
+}
+/* Heading styles within div elements */
+div h2{
+    text-align: center;
+    color: rgb(218, 100, 32);
+}
+/* Styles for paragraphs within div elements */
+#imgs div p{
+    margin: 0 400px;
+    border: 2px solid rgb(71, 0, 0);
+    background-image: url('img/red.jpg'); 
+    box-shadow: 2px 2px 2px rgb(147, 145, 145);
+    padding: 22px;
+}
+/* Styles for the 'Contact' section */
+legend{
+    text-align: center;
+    font-size: 23px;
+}
+/* Styles for form elements */
+fieldset{
+    /* box-shadow: 10px 10px rgb(163, 83, 83); */
+    display: block;
+    
+    background-color:rgb(10, 10, 10);
+   
+    text-align: center;
+}
+/* Styles for input elements */
+input{
+    
+    margin: 23px 0;
+}
+/* Styles for the 'Gallery' section */
+#Gallery{
+    z-index: -1;
+    margin-top: 10px;
+    border: 2px solid rgb(224, 223, 223);
+    position: top;
+    height: 700px;
+    margin-bottom: 15px;
+}
+ #Gallery h1{
+    text-align: center;
+    color: #ffffff;
+    -webkit-text-stroke: 1px rgb(151, 72, 3); 
+    text-shadow: 3px 3px 5px rgba(59, 56, 56, 0.5);
+ }
+ /* Styles for images within the 'Gallery' section */
+#Gallery img{
+    position: top;
+}
+
+/* Styles for card images */
+.card img{
+    width: 70%;
+    height: 70%;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+/* Styles for the sidebar menu */
+#sidebar{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: rgb(33, 32, 32);
+    color: rgb(222, 222, 199);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    border: 2px solid rgb(183, 173, 173);
+}
+/* Styles for links within the sidebar */
+#sidebar a{
+    padding: 16px;
+    color: rgb(190, 190, 180);
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+    transition: 0.3s;
+    text-align: center;
+}
+/* Styles for the container holding favorite car items */
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    
+}
+
+/* Styles for individual card elements */
+.card{
+    flex: 0 0 calc(23.33% - 20px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgb(122, 116, 116);
+    background-color:rgb(29, 27, 27) ; 
+    border-radius: 8px;
+    margin: 10px;
+}
+/* Styles for the 'Add to Your Favorite' section heading */
+.fav{
+    color: rgb(234, 86, 11);
+    text-align: center;
+}
+/* Specific styles for the 'Deals' section */
+.deal{
+    border: 2px solid rgb(211, 208, 208);
+    box-shadow: 0px 4px 8px rgb(204, 202, 202);
+    height: 600px;
+    position: relative;
+    z-index: -1;
+}
+/* Styles for the 'Deals' section headings */
+.deal h1{
+    color: rgba(225, 102, 7, 0.941)
+    
+   }
+/* Styles for text within the 'Deals' section */
+.deal .de{
+    position: top;
+    text-align: center;
+    
+}
+
+.deal img{
+    position: absolute;
+}
+.deal .la {
+    top: 80px;
+    left: 100px;
+    
+}
+
+.deal .tactor31 {
+    top: 250px;
+    left: 250px; 
+    
+}
+
+.deal .convert {
+    top: 80px; 
+    left: 400px; 
+    
+}
+
+.deal .st {
+    top: 250px; 
+    left: 550px; 
+    
+}
+.deal .me {
+    top: 80px;
+    left: 700px;
+    
+}
+.deal .you {
+    top: 250px;
+    left: 850px;
+    
+}
+
+
+.deal p{
+    margin-top: 450px;
+    text-align: center;
+    color: rgb(237, 109, 18);
+    font-family: cursive;
+}
+
+
+
+
